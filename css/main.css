@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+/* default styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+/* section title styles */
+.section-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #404149;
+}
+
+/* header styles */
+.header {
+  height: 80px;
+  background-color: #f7654a;
+}
+
+.bg-orange {
+  background-color: #f7654a;
+}
+
+/* nav styles */
+.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-item:first-child {
+  margin-left: 0;
+}
+
+/* hero section styles */
+.hero {
+  background: url(../img/bg.jpg) no-repeat center / cover;
+  height: 660px;
+}
+
+.hero-title {
+  height: 660px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero-title h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.hero-title p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+/* achievement section styles */
+.achievement-bg {
+  width: 100%;
+  margin: 0 15px;
+  padding: 60px 0;
+  background-color: #f7f7f7;
+}
+
+.achievement {
+  padding-top: 100px;
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievement-card__number {
+  color: #f7654a;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.achievement-card__heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.achievement-card__description {
+  color: #999;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* projects section styles */
+.projects {
+  padding-bottom: 100px;
+}
+
+.project-card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-card__img {
+  margin-bottom: 45px;
+}
+
+.project-card__description::before {
+  content: '';
+  display: block;
+  width: 55px;
+  height: 6px;
+  margin-bottom: 15px;
+  background-color: #f7654a;
+}
+
+.project-card__description h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 12px;
+  color: #404149;
+}
+
+.project-card__description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999;
+}
+
+/* request section styles */
+.request {
+  height: 180px;
+  background-color: #f7654a;
+  display: flex;
+  align-items: center;
+}
+
+.request-title {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.request-title h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 0.02em;
+}
+
+.request-title p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+}
+
+.btn-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.request-btn,
+.request-btn:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.request-btn {
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+
+.request-btn img {
+  margin-right: 8px;
+}
+
+/* about section styles */
+.about {
+  padding-top: 100px;
+}
+
+.about-card-wrapper {
+  margin-top: 30px;
+}
+
+.about-card-wrapper:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 65px;
+  background-color: #f7f7f7;
+}
+
+.about-card__icon {
+  margin-bottom: 30px;
+}
+
+.about-card__description h3 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* reviews section styles */
+.reviews {
+  padding-bottom: 100px;
+}
+
+.review-card {
+  background-color: #f7f7f7;
+  padding: 40px 30px;
+  margin-bottom: 30px;
+}
+
+.review-card__icon {
+  margin-bottom: 20px;
+}
+
+.review-card__review p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #999;
+}
+
+.reviewer__name,
+.reviewer__organization {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+}
+
+.reviewer__name {
+  color: #000;
+}
+
+.reviewer__organization {
+  color: #f7654a;
+}
+
+/* contacts section styles */
+.contacts {
+  padding: 100px 0;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card__icon {
+  height: 30px;
+  margin-bottom: 35px;
+}
+
+.contact-card__heading,
+.contact-card__description {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-card__heading {
+  color: #999;
+  margin-bottom: 25px;
+}
+
+.contact-card__description--orange-text {
+  color: #f7654a;
+}
+
+.contact-card__description span {
+  display: block;
+}
+
+/* footer section styles */
+.footer {
+  background-color: #404149;
+  height: 80px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.copyright,
+.studio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+
+/* media queries */
+@media screen and (max-width: 1199.98px) {
+  .hero-title h1 {
+    font-size: 52px;
+    line-height: 64px;
+  }
+
+  .project-card-wrapper:nth-child(n+3) {
+    margin-top: 40px;
+  }
+
+  .request-title h2 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  .request-title p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .review-card-wrapper:nth-child(3) {
+    margin-top: 40px;
+  }
+
+  .review-card {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .hero-title h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .achievement-card-wrapper:nth-child(n+3) {
+    margin-top: 40px;
+  }
+
+  .project-card-wrapper:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .request {
+    height: 250px;
+  }
+
+  .request-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .btn-wrapper {
+    justify-content: center;
+  }
+
+  .about-card-wrapper:nth-child(3) {
+    margin-top: 30px;
+  }
+
+  .review-card-wrapper:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .contact-card-wrapper:nth-child(n+3) {
+    margin-top: 50px;
+  }
+
+  .contact-card__icon {
+    margin-bottom: 20px;
+  }
+
+  .contact-card__heading {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .section-title h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .nav-item:first-child {
+    margin-left: 20px;
+  }
+
+  .hero-title h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .hero-title p {
+    font-size: 16px;
+  }
+
+  .request-title h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .request-title p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .about-card-wrapper:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .contact-card-wrapper:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .copyright,
+  .studio {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .hero-title h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .achievement-card-wrapper:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .request-title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .request-title p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .copyright,
+  .studio {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .hero-title h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .hero-title p {
+    font-size: 14px;
+  }
+
+  .request-title h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .request-title p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 380.98px) {
+  .hero-title h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hero-title p {
+    font-size: 12px;
+  }
+
+  .request-title h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 359.98px) {
+  .project-card__img {
+    width: 300px;
+  }
+}
